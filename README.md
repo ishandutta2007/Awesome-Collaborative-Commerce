@@ -74,72 +74,72 @@ The market is **moderately to highly fragmented** rather than winner-take-all, d
 
 ## 💻 Open-Source GitHub Projects
 
-The following repositories provide source-available foundations for building multi-vendor marketplaces, shared product catalogs, vendor portals, and split-order routing engines. Sorted by GitHub star count (descending):
+The following repositories provide source-available foundations for building multi-vendor marketplaces, shared product catalogs, vendor portals, and split-order routing engines. Sorted by GitHub Stars_Count (descending):
 
-1. ### 🚀 **[Medusa](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)
+1. ### 🚀 **[Medusa](https://github.com/medusajs/medusa)** [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)
    - **Description**: Composable digital commerce engine built with Node.js and TypeScript. With its modular architecture, Medusa powers customized B2B, multi-warehouse, and multi-tenant marketplace platforms (and serves as the underlying commerce backbone for purpose-built multi-vendor platforms like Mercur).
    - **Key Features**: Composable architecture, multi-warehouse support, automated workflows, extensive plugin ecosystem, Stripe and regional payment integrations.
    - **Tech Stack**: Node.js, TypeScript, PostgreSQL, Redis.
    - **License**: MIT.
    - **Best For**: Developers seeking an API-first, composable commerce core with complete source flexibility.
 
-2. ### 🛒 **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)
+2. ### 🛒 **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub_Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)
    - **Description**: Feature-rich Laravel-based eCommerce platform with an extensive dedicated **Multi-Vendor Marketplace** module.
    - **Key Features**: Dedicated vendor dashboard, product approval pipelines, configurable commission splits per vendor/category, multi-currency/multi-channel support, and POS integration.
    - **Tech Stack**: PHP, Laravel, Vue.js, MySQL.
    - **License**: MIT.
    - **Best For**: Teams in the PHP/Laravel ecosystem needing a batteries-included storefront and comprehensive multi-vendor marketplace out of the box.
 
-3. ### ⚡ **[Saleor](https://github.com/saleor/saleor)** [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor)](https://github.com/saleor/saleor/stargazers)
+3. ### ⚡ **[Saleor](https://github.com/saleor/saleor)** [![GitHub_Stars](https://img.shields.io/github/stars/saleor/saleor)](https://github.com/saleor/saleor/stargazers)
    - **Description**: High-performance headless GraphQL commerce platform built with Python and Django.
    - **Key Features**: Native multi-channel and multi-currency capabilities, webhook-driven app architecture for vendor synchronization, split fulfillment, and enterprise scalability.
    - **Tech Stack**: Python (Django), GraphQL, PostgreSQL, Next.js / React.
    - **License**: BSD-3-Clause.
    - **Best For**: Enterprise teams seeking a high-throughput, headless GraphQL infrastructure to orchestrate collaborative multi-channel commerce.
 
-4. ### 💎 **[Spree Commerce](https://github.com/spree/spree)** [![GitHub stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)
+4. ### 💎 **[Spree Commerce](https://github.com/spree/spree)** [![GitHub_Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)
    - **Description**: Battle-tested open-source eCommerce framework with a native marketplace extension, proven at scale by major multi-vendor retailers (e.g., Maisonette with 65,000+ SKUs).
    - **Key Features**: Vendor onboarding workflows, vendor self-service catalog management, split-shipment routing, configurable commission tiers per product or merchant, and enterprise upgrade path for Stripe Connect & Adyen payouts.
    - **Tech Stack**: Ruby on Rails, PostgreSQL, Docker.
    - **License**: AGPL-3.0 (Community Edition).
    - **Best For**: Ruby developers wanting a battle-proven multi-vendor foundation with rich vendor governance.
 
-5. ### 🛡️ **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)
+5. ### 🛡️ **[Solidus](https://github.com/solidusio/solidus)** [![GitHub_Stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)
    - **Description**: Composable, enterprise-grade digital commerce engine built on Ruby on Rails (forked from Spree and optimized for stability and deep customization).
    - **Key Features**: Highly modular architecture, marketplace extension support (`solidus_marketplace`), split fulfillment management, and multi-warehouse order distribution.
    - **Tech Stack**: Ruby on Rails, PostgreSQL.
    - **License**: BSD-3-Clause.
    - **Best For**: High-volume brands requiring fine-grained control over inventory routing, split order processing, and payment flows.
 
-6. ### 👥 **[Sharetribe](https://github.com/sharetribe/sharetribe)** [![GitHub stars](https://img.shields.io/github/stars/sharetribe/sharetribe?style=social&color=white)](https://github.com/sharetribe/sharetribe/stargazers)
+6. ### 👥 **[Sharetribe](https://github.com/sharetribe/sharetribe)** [![GitHub_Stars](https://img.shields.io/github/stars/sharetribe/sharetribe?style=social&color=white)](https://github.com/sharetribe/sharetribe/stargazers)
    - **Description**: Pioneer open-source marketplace software for peer-to-peer (P2P), rental, service, and product marketplaces.
    - **Key Features**: User profiles, listing management, integrated messaging, built-in transaction workflows, and booking/availability calendars.
    - **Tech Stack**: Ruby on Rails, MySQL.
    - **License**: Custom source-available / Community Edition (legacy Sharetribe Go).
    - **Best For**: Launching community marketplaces, peer-to-peer exchanges, and equipment or service rental networks.
 
-7. ### 🐍 **[Shuup](https://github.com/shuup/shuup)** [![GitHub stars](https://img.shields.io/github/stars/shuup/shuup?style=social&color=white)](https://github.com/shuup/shuup/stargazers)
+7. ### 🐍 **[Shuup](https://github.com/shuup/shuup)** [![GitHub_Stars](https://img.shields.io/github/stars/shuup/shuup?style=social&color=white)](https://github.com/shuup/shuup/stargazers)
    - **Description**: Versatile open-source multi-vendor marketplace platform built on Django and Python.
    - **Key Features**: Native vendor onboarding, multi-vendor product catalogs, configurable commission rates, vendor management portal, and extensible pricing mechanisms.
    - **Tech Stack**: Python, Django, PostgreSQL.
    - **License**: OSL-3.0.
    - **Best For**: Python and Django engineers needing a complete multi-vendor marketplace engine with native vendor portals and catalog moderation.
 
-8. ### 🪽 **[Mercur](https://github.com/mercurjs/mercur)** [![GitHub stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers)
+8. ### 🪽 **[Mercur](https://github.com/mercurjs/mercur)** [![GitHub_Stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers)
    - **Description**: Dedicated open-source multi-vendor marketplace engine purpose-built on Medusa for collaborative commerce.
    - **Key Features**: Master product catalog with multiple vendor offers, policy-based commission engine, automated vendor payouts via **Stripe Connect**, role-based vendor dashboards, and auditable approval workflows.
    - **Tech Stack**: Node.js, TypeScript, Medusa, PostgreSQL, Stripe Connect.
    - **License**: Source-available / Community.
    - **Best For**: Teams seeking a modern, purpose-built collaborative marketplace engine with built-in automated seller payouts and Medusa compatibility.
 
-9. ### 🌐 **[GrandNode](https://github.com/grandnode/grandnode2)** [![GitHub stars](https://img.shields.io/github/stars/grandnode/grandnode2?style=social&color=white)](https://github.com/grandnode/grandnode2/stargazers)
+9. ### 🌐 **[GrandNode](https://github.com/grandnode/grandnode2)** [![GitHub_Stars](https://img.shields.io/github/stars/grandnode/grandnode2?style=social&color=white)](https://github.com/grandnode/grandnode2/stargazers)
    - **Description**: Cross-platform open-source eCommerce platform developed on .NET Core with NoSQL (MongoDB) database architecture.
    - **Key Features**: Native support for Multi-Vendor, Multi-Store, and Multi-Tenant business models, vendor performance metrics, and configurable commission structures.
    - **Tech Stack**: C# (.NET Core), MongoDB / Azure CosmosDB / DocumentDB.
    - **License**: GPL-3.0.
    - **Best For**: .NET enterprises and developers wanting high-concurrency multi-vendor marketplace software built on top of a NoSQL database.
 
-10. ### 📦 **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)** [![GitHub stars](https://img.shields.io/github/stars/liberusoftware/ecommerce-laravel?style=social&color=white)](https://github.com/liberusoftware/ecommerce-laravel/stargazers)
+10. ### 📦 **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)** [![GitHub_Stars](https://img.shields.io/github/stars/liberusoftware/ecommerce-laravel?style=social&color=white)](https://github.com/liberusoftware/ecommerce-laravel/stargazers)
     - **Description**: Modern full-stack Laravel commerce framework designed with multi-vendor and dropshipping models in mind.
     - **Key Features**: Reactive checkout powered by Livewire, Stripe/PayPal integrations, DropXL dropshipping module, and wholesale B2B pricing tiers.
     - **Tech Stack**: PHP 8.5+, Laravel 13, Filament 5, Livewire 4.
