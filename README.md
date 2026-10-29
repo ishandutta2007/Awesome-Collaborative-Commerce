@@ -1,48 +1,61 @@
-# Awesome-Collaborative-Commerce
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Collaborative Commerce Banner" width="100%" />
+</p>
 
-# Awesome-Collaborative-Commerce
+# 🛍️ Awesome Collaborative Commerce 🤝
 
-**Top Collaborative Commerce (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Commerce/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Collaborative-Commerce?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Commerce/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Collaborative-Commerce?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Commerce/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Collaborative-Commerce?style=flat-square&color=blue" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Commerce/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Collaborative-Commerce?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>Curated ecosystem of SaaS products, distributed commerce frameworks, and open-source multi-vendor marketplace platforms.</strong><br/>
+  <em>Engineered for brand cross-selling, dropship networks, supplier onboarding, automated split commissions, and B2B trade.</em>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## 📑 Table of Contents
 
-*Focused on Multi-Vendor Marketplaces, Dropship Networks, Supplier Onboarding & Commission Management*
+- [🌟 Introduction & Key Concepts](#-introduction--key-concepts)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Trade-Offs: SaaS vs. Open Source](#️-architectural-trade-offs-saas-vs-open-source)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
-**Last updated: October 2026**
+---
 
+## 🌟 Introduction & Key Concepts
 
+**Collaborative Commerce** represents the shift from isolated storefronts to interconnected digital merchant networks. It allows brands, retailers, and suppliers to cross-sell each other's inventories, launch curated multi-vendor marketplaces, orchestrate automated dropshipping, and split commissions transparently—without holding excess physical inventory or custom-building complex payment routing from scratch.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Collaborative Commerce**. These tools enable brands, retailers, and suppliers to sell together—through curated marketplaces, dropship networks, and affiliate-style product exchanges—without building the infrastructure from scratch. The commercial space is dominated by managed platforms that handle vendor onboarding, commission splits, and order routing; the open-source space is thinner, but several mature commerce frameworks now ship native multi-vendor modules.
+### 🔑 Core Capabilities
+- **Multi-Vendor Governance**: Streamlined vendor onboarding, catalog integration, KYC verification, and product approval pipelines.
+- **Dropship & Inventory Synchronization**: Real-time two-way sync of stock availability, SKU mappings, and automated order fulfillment routing.
+- **Automated Payouts & Commission Splitting**: Split transactions at checkout (via Stripe Connect, Adyen for Platforms, or ledger engines) with configurable take rates.
+- **B2B & Net Terms**: Embedded trade credit, Buy Now Pay Later (BNPL) for corporate buyers, and accounts receivable (AR) automation.
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Examples** include Shopify Collective, Mirakl, Canal, Convictional, Nautical Commerce, Marketplacer, balance, Tradera, TradeRunner, and VTEX Marketplace (the category leaders in commercial space).
+The digital commerce and collaborative marketplace platform sector represents an estimated global market size of approximately **$9B to $16B** (expanding toward **$28B+** in specialized commerce cloud infrastructure, projected at a 12%–15% CAGR). 
 
+The market is **moderately to highly fragmented** rather than winner-take-all, divided across enterprise digital commerce suites, specialized B2B dropship infrastructure engines, and composable open-source frameworks.
 
+---
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, multi-vendor commerce, and open marketplace infrastructure. **Critical note**: True open-source collaborative commerce—a turnkey platform where vendors self-onboard and commissions split automatically—does not exist as a drop-in SaaS replacement. The projects below are **commerce frameworks with marketplace modules** that you operate yourself, owning vendor governance, payouts, and compliance.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The digital commerce and collaborative marketplace platform sector represents an estimated global market size of approximately **$9B to $16B** (expanding toward **$28B+** in specialized commerce cloud infrastructure, projected at a 12%–15% CAGR). The market is **moderately to highly fragmented** rather than winner-take-all, divided across enterprise digital commerce giants, specialized B2B marketplace infrastructure engines, and niche composable/open-source frameworks.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 | Platform | Revenue / Valuation (Scale) | Starting Pricing | Free Tier / Free Trial Limits | Focus & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,104 +70,136 @@ The digital commerce and collaborative marketplace platform sector represents an
 | **[Canal](https://www.canal.com/)** | Funding / Valuation: Acquired by Rokt (July 2025; prior ARR ~$5.8M) | Starter: $0/mo install fee + 5% transaction fee on marketplace sales; Enterprise custom contract | Free plan available (Starter tier with $0 monthly platform fee, limited to 5% per-transaction fee on sales) | Collaborative commerce network allowing DTC brands and retailers to cross-sell products without inventory risk. |
 | **[TradeRunner](https://www.traderunner.com/)** | Powered by Omnivore / City Beach Software (Est. Rev: ~$5M+) | Starts at $74.95/mo (Scale Up, up to $7,500/mo GMV) or 0.8% GMV (Pro tier, min $74.95/mo); Enterprise from $199.95/mo | Free plan available: $0/month for stores processing up to $1,000 USD in monthly sales revenue | Specialized marketplace integration connector syncing e-commerce stores (Shopify, WooCommerce, Magento) to Trade Me. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects
 
+The following repositories provide source-available foundations for building multi-vendor marketplaces, shared product catalogs, vendor portals, and split-order routing engines. Sorted by GitHub star count (descending):
 
-- **[Mercur](https://github.com/mercurjs/mercur)**
+1. ### 🚀 **[Medusa](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)
+   - **Description**: Composable digital commerce engine built with Node.js and TypeScript. With its modular architecture, Medusa powers customized B2B, multi-warehouse, and multi-tenant marketplace platforms (and serves as the underlying commerce backbone for purpose-built multi-vendor platforms like Mercur).
+   - **Key Features**: Composable architecture, multi-warehouse support, automated workflows, extensive plugin ecosystem, Stripe and regional payment integrations.
+   - **Tech Stack**: Node.js, TypeScript, PostgreSQL, Redis.
+   - **License**: MIT.
+   - **Best For**: Developers seeking an API-first, composable commerce core with complete source flexibility.
 
-  **Open-source enterprise marketplace platform** (license per repo; core built on Medusa) — **the most purpose-built open-source project for collaborative commerce** in this list. **Features**: Multi-vendor governance with sellers, offers against master products, order splitting per seller, policy-based commission rules, and **Stripe Connect payouts** for automated vendor disbursement; role-based access with auditable change pipeline; both admin and vendor panels; composable, API-first architecture . **Tech stack**: Medusa engine (Node.js, TypeScript), PostgreSQL, Stripe. **Deploy**: Self-hosted on your own infrastructure. **Trade-off**: **Commerce marketplace engine, not a turnkey SaaS**—you own deployment, vendor onboarding policy, and payment processor relationships. Commission and payout logic is configurable but requires setup. **Best for**: operators wanting full source control over a multi-vendor marketplace with automated commissions and payouts, without per-transaction platform fees.
+2. ### 🛒 **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)
+   - **Description**: Feature-rich Laravel-based eCommerce platform with an extensive dedicated **Multi-Vendor Marketplace** module.
+   - **Key Features**: Dedicated vendor dashboard, product approval pipelines, configurable commission splits per vendor/category, multi-currency/multi-channel support, and POS integration.
+   - **Tech Stack**: PHP, Laravel, Vue.js, MySQL.
+   - **License**: MIT.
+   - **Best For**: Teams in the PHP/Laravel ecosystem needing a batteries-included storefront and comprehensive multi-vendor marketplace out of the box.
 
+3. ### ⚡ **[Saleor](https://github.com/saleor/saleor)** [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor)](https://github.com/saleor/saleor/stargazers)
+   - **Description**: High-performance headless GraphQL commerce platform built with Python and Django.
+   - **Key Features**: Native multi-channel and multi-currency capabilities, webhook-driven app architecture for vendor synchronization, split fulfillment, and enterprise scalability.
+   - **Tech Stack**: Python (Django), GraphQL, PostgreSQL, Next.js / React.
+   - **License**: BSD-3-Clause.
+   - **Best For**: Enterprise teams seeking a high-throughput, headless GraphQL infrastructure to orchestrate collaborative multi-channel commerce.
 
+4. ### 💎 **[Spree Commerce](https://github.com/spree/spree)** [![GitHub stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)
+   - **Description**: Battle-tested open-source eCommerce framework with a native marketplace extension, proven at scale by major multi-vendor retailers (e.g., Maisonette with 65,000+ SKUs).
+   - **Key Features**: Vendor onboarding workflows, vendor self-service catalog management, split-shipment routing, configurable commission tiers per product or merchant, and enterprise upgrade path for Stripe Connect & Adyen payouts.
+   - **Tech Stack**: Ruby on Rails, PostgreSQL, Docker.
+   - **License**: AGPL-3.0 (Community Edition).
+   - **Best For**: Ruby developers wanting a battle-proven multi-vendor foundation with rich vendor governance.
 
-- **[Spree Commerce](https://github.com/spree/spree)**
+5. ### 🛡️ **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)
+   - **Description**: Composable, enterprise-grade digital commerce engine built on Ruby on Rails (forked from Spree and optimized for stability and deep customization).
+   - **Key Features**: Highly modular architecture, marketplace extension support (`solidus_marketplace`), split fulfillment management, and multi-warehouse order distribution.
+   - **Tech Stack**: Ruby on Rails, PostgreSQL.
+   - **License**: BSD-3-Clause.
+   - **Best For**: High-volume brands requiring fine-grained control over inventory routing, split order processing, and payment flows.
 
-  **Open-source eCommerce framework with native marketplace module** (AGPL-3.0 for Community; Enterprise adds automations) — **the most battle-tested open-source option**, validated at scale by Maisonette (65,000+ products from hundreds of brands) . **Features (Community Edition)**: Vendor onboarding and approval workflows; vendor dashboard for self-service product management and fulfillment; **configurable commission rates per vendor, category, or product**; split-shipment tracking across vendors. **Enterprise Edition adds**: Stripe Connect payouts, Adyen for Platforms, promotion commission overrides, and two-way product/inventory/order sync for vendor migration . **Tech stack**: Ruby on Rails. **Deploy**: Self-hosted (Docker-first in 5.6; Redis no longer required, single image runs web and jobs) . **Trade-off**: **Framework, not a SaaS**—you operate the platform. Community Edition lacks automated payouts; Enterprise is licensed. **Best for**: developers and operators wanting a proven marketplace foundation with a clear upgrade path to automated payouts.
+6. ### 👥 **[Sharetribe](https://github.com/sharetribe/sharetribe)** [![GitHub stars](https://img.shields.io/github/stars/sharetribe/sharetribe?style=social&color=white)](https://github.com/sharetribe/sharetribe/stargazers)
+   - **Description**: Pioneer open-source marketplace software for peer-to-peer (P2P), rental, service, and product marketplaces.
+   - **Key Features**: User profiles, listing management, integrated messaging, built-in transaction workflows, and booking/availability calendars.
+   - **Tech Stack**: Ruby on Rails, MySQL.
+   - **License**: Custom source-available / Community Edition (legacy Sharetribe Go).
+   - **Best For**: Launching community marketplaces, peer-to-peer exchanges, and equipment or service rental networks.
 
+7. ### 🐍 **[Shuup](https://github.com/shuup/shuup)** [![GitHub stars](https://img.shields.io/github/stars/shuup/shuup?style=social&color=white)](https://github.com/shuup/shuup/stargazers)
+   - **Description**: Versatile open-source multi-vendor marketplace platform built on Django and Python.
+   - **Key Features**: Native vendor onboarding, multi-vendor product catalogs, configurable commission rates, vendor management portal, and extensible pricing mechanisms.
+   - **Tech Stack**: Python, Django, PostgreSQL.
+   - **License**: OSL-3.0.
+   - **Best For**: Python and Django engineers needing a complete multi-vendor marketplace engine with native vendor portals and catalog moderation.
 
+8. ### 🪽 **[Mercur](https://github.com/mercurjs/mercur)** [![GitHub stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers)
+   - **Description**: Dedicated open-source multi-vendor marketplace engine purpose-built on Medusa for collaborative commerce.
+   - **Key Features**: Master product catalog with multiple vendor offers, policy-based commission engine, automated vendor payouts via **Stripe Connect**, role-based vendor dashboards, and auditable approval workflows.
+   - **Tech Stack**: Node.js, TypeScript, Medusa, PostgreSQL, Stripe Connect.
+   - **License**: Source-available / Community.
+   - **Best For**: Teams seeking a modern, purpose-built collaborative marketplace engine with built-in automated seller payouts and Medusa compatibility.
 
-- **[Bagisto](https://github.com/bagisto/bagisto)**
+9. ### 🌐 **[GrandNode](https://github.com/grandnode/grandnode2)** [![GitHub stars](https://img.shields.io/github/stars/grandnode/grandnode2?style=social&color=white)](https://github.com/grandnode/grandnode2/stargazers)
+   - **Description**: Cross-platform open-source eCommerce platform developed on .NET Core with NoSQL (MongoDB) database architecture.
+   - **Key Features**: Native support for Multi-Vendor, Multi-Store, and Multi-Tenant business models, vendor performance metrics, and configurable commission structures.
+   - **Tech Stack**: C# (.NET Core), MongoDB / Azure CosmosDB / DocumentDB.
+   - **License**: GPL-3.0.
+   - **Best For**: .NET enterprises and developers wanting high-concurrency multi-vendor marketplace software built on top of a NoSQL database.
 
-  **Open-source Laravel eCommerce and multi-vendor marketplace platform** (license per repo) — **a full-stack option with a dedicated Multi Vendor Marketplace extension**. **Features**: Admin manages sellers, commissions, product approvals, and order handling; vendors get a dedicated dashboard for catalog, orders, and transactions; also supports B2B, multi-tenant SaaS marketplaces, POS, and headless commerce . **Tech stack**: Laravel (PHP), Vue.js. **Deploy**: Self-hosted (Docker one-liner: `docker run -d --name bagisto -p 80:80 webkul/bagisto:latest`) . **Trade-off**: **Full platform adoption required**—the marketplace is an extension, not a bolt-on to an existing store. Commission and payout automation depth varies by configuration. **Best for**: Laravel developers wanting a batteries-included commerce platform with native multi-vendor capabilities.
-
-
-
-- **[GrandNode](https://github.com/grandnode/grandnode2)**
-
-  **Open-source cross-platform eCommerce platform** (GPL-3.0) — **supports multi-vendor business models on .NET Core and MongoDB**. **Features**: Explicitly supports B2B, B2C, Multi-Store, **Multi-Vendor**, Multi-Tenant, Multi-Language, and Multi-Currency models; built for ASP.NET Core with MongoDB/NoSQL storage . **Tech stack**: C# (.NET Core), MongoDB / Azure CosmosDB / Amazon DocumentDB / LiteDB. **Deploy**: Self-hosted. **Trade-off**: **.NET ecosystem-specific**—multi-vendor support is a business model option, but vendor governance and commission automation depth requires evaluation against your requirements. **Best for**: .NET teams wanting an open-source commerce platform with multi-vendor support in a NoSQL stack.
-
-
-
-- **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)**
-
-  **Open-source Laravel eCommerce platform** (MIT) — **a modern full-stack option positioned for multi-vendor marketplaces**. **Features**: The project explicitly states it provides the foundation for "launching a small online shop or building a multi-vendor marketplace"; includes reactive checkout, Stripe/PayPal, dropshipping via DropXL, and B2B wholesale pricing . **Tech stack**: Laravel 13, PHP 8.5, Filament 5, Livewire 4. **Deploy**: Self-hosted (interactive `./setup.sh`). **Trade-off**: **Early-stage for marketplace specifically**—multi-vendor is a stated use case, not a shipped module with vendor onboarding and commissions. Dropshipping is supplier-integration-oriented, not vendor self-service. **Best for**: Laravel developers wanting a modern, MIT-licensed foundation to build a marketplace upon, with dropship capabilities built in.
-
-
-
-- **[flexcommerce-marketplace](https://pypi.org/project/flexcommerce-marketplace/)**
-
-  **Django marketplace module for FlexCommerce** (MIT) — **a modular, Africa-focused marketplace backend** for Django + DRF. **Features**: Vendor applications with KYC and bank details; staff approval; **orders split per vendor inside checkout with commission snapshotted**; vendors manage their own catalog and shipping; refunds charged back to the correct vendor; **payouts generated after the hold period** . **Tech stack**: Python (Django), Django REST Framework. **Deploy**: Self-hosted (`pip install flexcommerce-marketplace`; add to `INSTALLED_APPS`). **Trade-off**: **Modular backend, not a full storefront**—you build the frontend and integrate with other FlexCommerce apps (core, orders). Designed with Nigerian/African payment and banking context. **Best for**: Django developers wanting a marketplace commission and payout engine as a composable package rather than a monolith.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **VendorBridge AI** — AI-powered procurement ERP (license per repo) with vendor management, RFQ, quotation comparison, approval workflows, and purchase orders . **Note**: **Procurement and vendor management**, not consumer-facing collaborative commerce—it governs supplier relationships for an organization's own purchasing, not multi-vendor sales. **Best for**: enterprises wanting AI-assisted supplier procurement, not marketplace operations.
-
-- **SevenSquare Vendor Management** — Laravel + Electron vendor management system (license per repo) for supplier profiles, contracts, and purchase orders . **Note**: Same limitation as VendorBridge—internal procurement, not marketplace commerce.
-
-
-
-**Frameworks for building custom systems**: Combine **Mercur** for purpose-built marketplace governance and Stripe Connect payouts with **Spree Commerce** for a battle-tested catalog and order engine (or its Enterprise edition for automated payouts), **Bagisto** for a Laravel-native full-stack marketplace, and **flexcommerce-marketplace** as a composable Django commission engine—creating a collaborative commerce stack matched to your existing technology and operational capacity. **None of these provide managed hosting or vendor support**—you own the infrastructure and vendor relationships.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Collaborative commerce platforms handling vendor data, commissions, and payouts must comply with data protection regulations (GDPR, CCPA, etc.), payment processor rules (PCI DSS where applicable), and marketplace tax obligations.
-
-- **The "managed marketplace SaaS" vs. "commerce framework with marketplace module" distinction is absolute.** **Mirakl, Canal, Convictional, Nautical, Marketplacer, VTEX, Shopify Collective, Tradera, and TradeRunner** are **managed platforms**—they provide hosting, support, and often vendor networks. **Mercur, Spree, Bagisto, GrandNode, Liberu, and flexcommerce-marketplace** are **frameworks or modules**—you operate the infrastructure, onboard vendors yourself, and own compliance. **No open-source project provides a turnkey collaborative commerce network.**
-
-- **Mercur is the most purpose-built open-source marketplace engine** for the core collaborative commerce problem—vendor governance, offers against master products, order splitting, commissions, and Stripe Connect payouts . **The trade-off**: it is built on Medusa and requires you to operate the stack. It does not provide vendor discovery or a ready-made supplier network.
-
-- **Spree Commerce is the most battle-tested open-source marketplace foundation.** Maisonette runs 65,000+ products from hundreds of brands on Spree . The **Community Edition** includes vendor onboarding, dashboards, and commission configuration but **lacks automated payouts**; **Enterprise Edition** adds Stripe Connect and Adyen for Platforms . **Choose based on whether you need automated disbursement out of the box.**
-
-- **Procurement tools are not collaborative commerce.** **VendorBridge AI** and **SevenSquare** manage suppliers for an organization's own purchasing . They do not enable multiple vendors to sell through a shared storefront. **Do not confuse internal vendor management with marketplace operations.**
-
-- **Pricing opacity is universal across commercial marketplace platforms.** Mirakl, Canal, Convictional, Nautical, Marketplacer, VTEX, and TradeRunner require sales contact. Shopify Collective is included with Shopify. Tradera has transaction fees. **Validate with direct vendor conversations against your expected GMV and vendor count.**
-
-- Self-hosted open-source solutions require proper server setup, payment processor configuration, security hardening, and ongoing maintenance. **Marketplace platforms handle vendor funds and commissions**—ensure your deployment meets payment processor requirements and your organization's security standards before processing live transactions.
-
-
+10. ### 📦 **[Liberu Ecommerce](https://github.com/liberusoftware/ecommerce-laravel)** [![GitHub stars](https://img.shields.io/github/stars/liberusoftware/ecommerce-laravel?style=social&color=white)](https://github.com/liberusoftware/ecommerce-laravel/stargazers)
+    - **Description**: Modern full-stack Laravel commerce framework designed with multi-vendor and dropshipping models in mind.
+    - **Key Features**: Reactive checkout powered by Livewire, Stripe/PayPal integrations, DropXL dropshipping module, and wholesale B2B pricing tiers.
+    - **Tech Stack**: PHP 8.5+, Laravel 13, Filament 5, Livewire 4.
+    - **License**: MIT.
+    - **Best For**: Modern Laravel developers looking for a lightweight, Filament-powered admin and reactive storefront ready for dropship and multi-vendor expansion.
 
 ---
 
+### 📦 Additional Modules & Procurement Systems
 
+- **[flexcommerce-marketplace](https://pypi.org/project/flexcommerce-marketplace/)**: Composable Django REST Framework module providing vendor onboarding, order splitting, KYC handling, and post-hold commission payouts.
+- **VendorBridge AI**: AI-assisted ERP and procurement vendor portal for RFQ tracking, quotation comparisons, and PO approvals. *(Internal procurement focus).*
+- **SevenSquare Vendor Management**: Laravel and Electron supplier tracking tool for vendor profiles, SLAs, and order auditing. *(Internal procurement focus).*
 
-**Made for developers, marketplace operators, and organizations building transparent collaborative commerce solutions.**
+---
 
-Let's make Collaborative Commerce more open, data-driven, and vendor-friendly.
+## 🛠️ Architectural Trade-Offs: SaaS vs. Open Source
+
+| Dimension | Managed SaaS (e.g. Mirakl, Canal, Collective) | Open-Source Engine (e.g. Mercur, Bagisto, Spree) |
+| :--- | :--- | :--- |
+| **Vendor Onboarding** | Pre-built vendor portals & supplier network discovery | Customizable portal; self-hosted vendor registration workflows |
+| **Split Payouts** | Fully managed merchant-of-record (MoR) or automated split payouts | Requires configuring Stripe Connect / Adyen for Platforms |
+| **Infrastructure** | Fully managed, zero maintenance overhead | You operate host servers, databases, security compliance, & upgrades |
+| **Pricing Model** | High monthly base ($1k–$8k+) + 1%–5% GMV take rate | 100% free / open license; zero recurring GMV platform take rates |
+| **Data Ownership** | Vendor data stored within vendor cloud | 100% self-hosted ownership over customer, product, and vendor records |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this collaborative commerce guide comprehensive, accurate, and up-to-date:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a feature branch**: `git checkout -b feature/new-commerce-tool`.
+3. ✏️ **Add your project** in the appropriate section with:
+   - Name and link to official website or GitHub repo.
+   - Objective summary (1–2 sentences).
+   - Tech stack, license, and primary use case.
+4. 📬 **Submit a Pull Request** with a brief summary of why the tool is a good fit.
+
+---
+
+## 💖 Support
+
+If you found this curated list helpful for building or researching collaborative commerce architectures:
+
+- 🌟 **Star this repository** to help others discover it!
+- 🍴 **Fork it** to maintain your personal reference or contribute new features.
+- 📢 **Share it** on LinkedIn, X/Twitter, or developer communities.
+- ☕ **Support the maintainer**: Buy a coffee and support open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Collaborative-Commerce&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Collaborative-Commerce&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated directory** intended for informational and educational purposes; inclusion does not constitute an endorsement.
+- Multi-vendor and collaborative commerce applications involve handling third-party funds, customer data, and tax remittances. Implementers are solely responsible for ensuring compliance with GDPR, CCPA, PCI DSS, marketplace sales tax regulations, and payment provider platform agreements.
