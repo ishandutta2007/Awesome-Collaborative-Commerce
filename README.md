@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The digital commerce and collaborative marketplace platform sector represents an estimated global market size of approximately **$9B to $16B** (expanding toward **$28B+** in specialized commerce cloud infrastructure, projected at a 12%–15% CAGR). The market is **moderately to highly fragmented** rather than winner-take-all, divided across enterprise digital commerce giants, specialized B2B marketplace infrastructure engines, and niche composable/open-source frameworks.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Shopify Collective](https://www.shopify.com/collective)**
-
-  **Curated product exchange for Shopify merchants** enabling retailers to sell products from other Shopify brands, with automatic inventory sync and order routing. **Pricing**: Included with Shopify plans; transaction fees may apply. **Free tier**: None beyond Shopify subscription. **Best for**: Shopify merchants wanting to expand catalog without holding inventory, within a trusted ecosystem.
-
-
-
-- **[Mirakl](https://www.mirakl.com/)**
-
-  **Enterprise marketplace platform** powering large multi-vendor marketplaces for retailers and B2B organizations. Handles seller onboarding, commission management, and catalog integration at scale. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: large retailers and distributors building curated, governed marketplaces with hundreds or thousands of sellers.
-
-
-
-- **[Canal](https://www.canal.com/)**
-
-  **Collaborative commerce network** connecting brands with retailers for dropship and wholesale relationships. **Pricing**: Quote-only; transaction-based models. **Free tier**: None. **Best for**: brands wanting distribution through retailer networks without managing individual relationships.
-
-
-
-- **[Convictional](https://www.convictional.com/)**
-
-  **B2B dropship and marketplace infrastructure** for supplier-retailer collaboration. **Pricing**: Quote-only. **Free tier**: None. **Best for**: retailers and suppliers wanting structured dropship automation with compliance controls.
-
-
-
-- **[Nautical Commerce](https://www.nauticalcommerce.com/)**
-
-  **Marketplace-as-a-service platform** for building multi-vendor marketplaces. **Pricing**: Quote-only. **Free tier**: None. **Best for**: operators wanting a managed marketplace platform without building from scratch.
-
-
-
-- **[Marketplacer](https://marketplacer.com/)**
-
-  **Marketplace platform** for launching and scaling multi-vendor commerce. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting a proven marketplace engine with vendor management and integrations.
-
-
-
-- **[balance](https://www.getbalance.com/)**
-
-  **B2B payment and net terms platform** for marketplace and wholesale transactions. **Note**: Payment infrastructure, not a full collaborative commerce platform. **Best for**: marketplaces needing net terms and B2B payment workflows.
-
-
-
-- **[Tradera](https://www.tradera.com/)** (eBay-owned)
-
-  **Nordic marketplace** for second-hand and new goods. **Pricing**: Transaction fees. **Free tier**: Limited free listings. **Best for**: sellers targeting Nordic consumers through an established marketplace.
-
-
-
-- **[TradeRunner](https://www.traderunner.com/)**
-
-  **B2B marketplace platform** for wholesale and dropship. **Pricing**: Quote-only. **Free tier**: None. **Best for**: distributors and retailers wanting structured B2B collaboration.
-
-
-
-- **[VTEX Marketplace](https://vtex.com/)**
-
-  **Enterprise marketplace module** within VTEX commerce platform. **Pricing**: Quote-only; bundled with VTEX. **Free tier**: None. **Best for**: VTEX customers wanting native multi-vendor capabilities.
-
-
+| Platform | Revenue / Valuation (Scale) | Starting Pricing | Free Tier / Free Trial Limits | Focus & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Collective](https://www.shopify.com/collective)** | Market Cap: ~$125B+ (Shopify Inc.) / ~$8B+ Ann. Rev | Free add-on on standard plans (Shopify plans start at $39/mo billed monthly or $29/mo annually; standard transaction fees apply) | 3-day free trial on Shopify (followed by $1/mo promo for first 3 months); Collective itself has no additional subscription fee, but live checkouts require an active paid Shopify plan | Curated product exchange for Shopify merchants enabling cross-selling with inventory sync and automated order routing without holding inventory. |
+| **[Mirakl](https://www.mirakl.com/)** | Valuation: $3.5B (Series E) / $15B+ GMV processed | Starts at ~$7,500/mo ($90,000–$100,000+/year base license) + ~1%–4.5% GMV take rate | No free tier or self-serve trial; custom proof-of-concept (PoC) and sales-guided demos only | Enterprise-scale multi-vendor marketplace platform for tier-1 retailers and distributors managing high seller counts. |
+| **[balance](https://www.getbalance.com/)** | Valuation: ~$365M (Series B) / Rev: ~$15M–$50M | Starts at ~$2,000/mo base SaaS subscription + per-transaction fees (typically 1.5%–3% on net terms/invoicing) | No free tier or self-serve trial; live sandbox environment and enterprise demo available upon sales qualification | B2B payment, automated invoice processing, and instant net terms/financing infrastructure for marketplaces and wholesale trade. |
+| **[VTEX Marketplace](https://vtex.com/)** | Market Cap: ~$650M (NYSE: VTEX) / Rev: ~$240.5M (FY2025) | Starts at ~$1,500–$2,000/mo base enterprise subscription + 1%–3% GMV variable success fee | No free tier or self-serve trial; demo and sandbox testing environments provided during enterprise sales scoping | Native enterprise marketplace engine embedded inside VTEX composable digital commerce suite. |
+| **[Tradera](https://www.tradera.com/)** | Valuation: ~SEK 915M (~$85M) / Rev: ~€56.7M (~SEK 650M+) | Private sellers: 10% commission per sold item (min SEK 3, max SEK 200). Business stores: 0 SEK/mo (8% commission) or store plans from SEK 275/mo | Private sellers get 100 free listings/month (SEK 3–10 fee per unsold listing applied from 101st listing onwards); businesses get 500 free listings on basic tier | Nordic circular economy and consumer/B2B marketplace for second-hand, overstock, and new goods. |
+| **[Marketplacer](https://marketplacer.com/)** | Funding: ~$85M–$100M total raised (Series C) / Est. Rev: ~$20M+ | Starts at ~$3,500–$5,000/mo (~$40,000–$60,000/year base SaaS license) + volume/take rate and implementation fees | No free tier or self-serve trial; guided software demonstrations and pilot scoping upon consultation | Scalable multi-vendor marketplace engine with catalog management and dropship connectivity for mid-to-large enterprises. |
+| **[Convictional](https://www.convictional.com/)** | Funding: ~$49M (Series B) / Est. Rev: ~$8M–$12M | Starts at ~$2,000/mo base subscription fee + tiered transaction/order processing fees | No free tier or self-serve trial; custom enterprise pilot program and guided demonstrations only | Enterprise supplier enablement, automated dropship, and marketplace integration for omnichannel retailers. |
+| **[Nautical Commerce](https://www.nauticalcommerce.com/)** | Funding: ~$32.2M (Series A, acquired by Traide) / Est. Rev: ~$4M+ | Starts at ~$1,500–$2,500/mo base platform license + transaction fees based on GMV | No free tier or self-serve trial; product demonstrations and sandbox evaluation upon request | Marketplace-as-a-service platform managing vendor onboarding, split checkout, and distributed catalog routing. |
+| **[Canal](https://www.canal.com/)** | Funding / Valuation: Acquired by Rokt (July 2025; prior ARR ~$5.8M) | Starter: $0/mo install fee + 5% transaction fee on marketplace sales; Enterprise custom contract | Free plan available (Starter tier with $0 monthly platform fee, limited to 5% per-transaction fee on sales) | Collaborative commerce network allowing DTC brands and retailers to cross-sell products without inventory risk. |
+| **[TradeRunner](https://www.traderunner.com/)** | Powered by Omnivore / City Beach Software (Est. Rev: ~$5M+) | Starts at $74.95/mo (Scale Up, up to $7,500/mo GMV) or 0.8% GMV (Pro tier, min $74.95/mo); Enterprise from $199.95/mo | Free plan available: $0/month for stores processing up to $1,000 USD in monthly sales revenue | Specialized marketplace integration connector syncing e-commerce stores (Shopify, WooCommerce, Magento) to Trade Me. |
 
 ## Open-Source GitHub Projects
 
